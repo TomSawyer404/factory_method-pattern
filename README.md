@@ -4,7 +4,7 @@
 
 # 实战
 
-假设我们有一个物流中心（Logistics），它能把货物运送出去（deliver），其中包含了路运和海运。
+假设我们有一个物流中心（Logistics），它能把货物运送出去（Deliver），其中包含了路运和海运。物流中心每发出一个货运实例，就要记录发出的货运量（Payload）。
 
 ![1](https://refactoring.guru/images/patterns/content/factory-method/factory-method-en.png?id=cfa26f33dc8473e803fa)
 
@@ -14,6 +14,7 @@
 
 ```bash
 Deliver by sea in a container.
+Deliver by land in a box.
 Deliver by land in a box.
 ```
 
